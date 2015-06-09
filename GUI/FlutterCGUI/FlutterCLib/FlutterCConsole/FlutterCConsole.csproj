@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7287D3F-A381-4AB0-A93D-9C522F4C1DE6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlutterCConsole</RootNamespace>
+    <AssemblyName>FlutterCConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogicalNot.cs" />
+    <Compile Include="Nodes\Ampersand.cs" />
+    <Compile Include="Nodes\Asterix.cs" />
+    <Compile Include="Nodes\BitwiseAnd.cs" />
+    <Compile Include="Nodes\BitwiseCommand.cs" />
+    <Compile Include="Nodes\BitwiseOr.cs" />
+    <Compile Include="Nodes\BitwiseXor.cs" />
+    <Compile Include="Nodes\Break.cs" />
+    <Compile Include="Nodes\BreakOff.cs" />
+    <Compile Include="Nodes\CAnd.cs" />
+    <Compile Include="Nodes\CastCommand.cs" />
+    <Compile Include="DataTypes\CastInfo.cs" />
+    <Compile Include="Computer\CellMemory.cs" />
+    <Compile Include="Nodes\Continue.cs" />
+    <Compile Include="Nodes\ContinueOff.cs" />
+    <Compile Include="Nodes\Cor.cs" />
+    <Compile Include="Exceptions\AccessViolationException.cs" />
+    <Compile Include="Exceptions\NameConflictException.cs" />
+    <Compile Include="Exceptions\NullPointerAccess.cs" />
+    <Compile Include="Exceptions\OutOfMemoryException.cs" />
+    <Compile Include="Exceptions\TypeException.cs" />
+    <Compile Include="Exceptions\UnsupportedFeatureException.cs" />
+    <Compile Include="Nodes\LeftShift.cs" />
+    <Compile Include="Nodes\LogicalAnd.cs" />
+    <Compile Include="Nodes\LogicalOr.cs" />
+    <Compile Include="Nodes\Mod.cs" />
+    <Compile Include="Nodes\Off.cs" />
+    <Compile Include="PerfomanceReport.cs" />
+    <Compile Include="Nodes\ReturnOff.cs" />
+    <Compile Include="Nodes\ComprasionCommands.cs" />
+    <Compile Include="PostDecrement.cs" />
+    <Compile Include="PostIncrement.cs" />
+    <Compile Include="PreDecrement.cs" />
+    <Compile Include="PreIncrement.cs" />
+    <Compile Include="SyntaxParsing\ConstantParser.cs" />
+    <Compile Include="Exceptions\UnexpectedItem.cs" />
+    <Compile Include="Nodes\BitwiseNot.cs" />
+    <Compile Include="Nodes\Divide.cs" />
+    <Compile Include="Nodes\Equal.cs" />
+    <Compile Include="Nodes\InversedAssignment.cs" />
+    <Compile Include="Nodes\Less.cs" />
+    <Compile Include="Nodes\LessEqual.cs" />
+    <Compile Include="Nodes\Minus.cs" />
+    <Compile Include="Nodes\More.cs" />
+    <Compile Include="Nodes\MoreEqual.cs" />
+    <Compile Include="Nodes\Mult.cs" />
+    <Compile Include="Nodes\NonEqual.cs" />
+    <Compile Include="DataTypes\Pointer.cs" />
+    <Compile Include="Nodes\PointerCommand.cs" />
+    <Compile Include="Nodes\PrimitiveValueCommand.cs" />
+    <Compile Include="Nodes\PushVariable.cs" />
+    <Compile Include="DataTypes\CallMarker.cs" />
+    <Compile Include="Nodes\Return.cs" />
+    <Compile Include="Nodes\RightShift.cs" />
+    <Compile Include="SyntaxParsing\ExpressionParser.cs" />
+    <Compile Include="Nodes\ArithmeticsCommand.cs" />
+    <Compile Include="Nodes\Assignment.cs" />
+    <Compile Include="Nodes\Call.cs" />
+    <Compile Include="Nodes\Command.cs" />
+    <Compile Include="SyntaxParsing\CommandParser.cs" />
+    <Compile Include="SyntaxParsing\CommandPreparator.cs" />
+    <Compile Include="Exceptions\BlockException.cs" />
+    <Compile Include="Exceptions\BracketBalanceException.cs" />
+    <Compile Include="Exceptions\EndlessLoopException.cs" />
+    <Compile Include="Exceptions\FlutterCException.cs" />
+    <Compile Include="Exceptions\ForParseException.cs" />
+    <Compile Include="Exceptions\FunctionRecognisionException.cs" />
+    <Compile Include="Exceptions\ParseException.cs" />
+    <Compile Include="Exceptions\RuntimeFlutterCException.cs" />
+    <Compile Include="Exceptions\SemicolonException.cs" />
+    <Compile Include="Exceptions\UnappropriateNameException.cs" />
+    <Compile Include="Exceptions\UnexpectedTypeException.cs" />
+    <Compile Include="NameInventor.cs" />
+    <Compile Include="Nodes\Condition.cs" />
+    <Compile Include="DataTypes\Value.cs" />
+    <Compile Include="DataTypes\Variable.cs" />
+    <Compile Include="DataTypes\Void.cs" />
+    <Compile Include="DataTypes\Char.cs" />
+    <Compile Include="DataTypes\ComplexValue.cs" />
+    <Compile Include="Computer\Computer.cs" />
+    <Compile Include="DataTypes\Double.cs" />
+    <Compile Include="DataTypes\Enum.cs" />
+    <Compile Include="DataTypes\Float.cs" />
+    <Compile Include="Nodes\Function.cs" />
+    <Compile Include="DataTypes\InsignedInt.cs" />
+    <Compile Include="DataTypes\Int.cs" />
+    <Compile Include="Nodes\FunctionBody.cs" />
+    <Compile Include="Nodes\LinearNode.cs" />
+    <Compile Include="DataTypes\LongDouble.cs" />
+    <Compile Include="DataTypes\Long.cs" />
+    <Compile Include="Computer\Memory.cs" />
+    <Compile Include="Nodes\Node.cs" />
+    <Compile Include="Nodes\Operator.cs" />
+    <Compile Include="Nodes\Pop.cs" />
+    <Compile Include="Nodes\Push.cs" />
+    <Compile Include="Nodes\Plus.cs" />
+    <Compile Include="SyntaxParsing\OperatorsParser.cs" />
+    <Compile Include="Nodes\Peek.cs" />
+    <Compile Include="Preprocessor.cs" />
+    <Compile Include="DataTypes\PrimitiveValue.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SyntaxParsing\StructureParser.cs" />
+    <Compile Include="SyntaxParsing\SyntaxParser.cs" />
+    <Compile Include="SyntaxParsing\TypeParser.cs" />
+    <Compile Include="UnaryMinus.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Nodes\VariableDeclaration.cs" />
+    <Compile Include="Nodes\While.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="diagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

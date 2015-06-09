@@ -1,0 +1,8 @@
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\bin\Release\Console.exe.config
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\bin\Release\Console.exe
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\bin\Release\Console.pdb
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\bin\Release\FlutterCLib.dll
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\bin\Release\FlutterCLib.pdb
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\obj\Release\Console.csprojResolveAssemblyReference.cache
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\obj\Release\Console.exe
+C:\Users\Ren\Dropbox\GUI\FlutterCGUI\Console\obj\Release\Console.pdb

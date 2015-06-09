@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FlutterCProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cfiles>
+    <string>C:\Users\Ren\Dropbox\GUI\FlutterCGUI\FlutterCGUI\bin\Debug\main.c</string>
+    <string>C:\Users\Ren\Dropbox\GUI\FlutterCGUI\FlutterCGUI\bin\Debug\testcode.c</string>
+  </cfiles>
+  <shortNames>
+    <string>main.c</string>
+    <string>testcode.c</string>
+  </shortNames>
+</FlutterCProject>

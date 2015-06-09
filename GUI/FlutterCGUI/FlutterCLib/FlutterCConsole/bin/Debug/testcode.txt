@@ -1,0 +1,11 @@
+int main(int x)
+{
+	int a = mf(5, 7);
+}
+
+int mf(int a, int b){
+	return a+b;
+}
+
+int mf(){
+}

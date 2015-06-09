@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Variable">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgEAAAAAAAAEAAAAQAAAAACAACAAAAAAAAAACAA=</HashCode>
+      <FileName>FlutterCConsole\DataTypes\Variable.cs</FileName>
+      <NewMemberFileName>Variable.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Value">
+    <Position X="21.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CZSgAEUAsRBFAAAEgYYgIABACEqKACAAAAogAgAARAU=</HashCode>
+      <FileName>FlutterCConsole\DataTypes\Value.cs</FileName>
+      <NewMemberFileName>Value.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Function">
+    <Position X="12" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAEAACAAQAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearNode">
+    <Position X="5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAQgAAAAIAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\LinearNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memory">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MABEcCyEKAEQAAECABUEBKkSqKBA4YUAACAJERQGNgA=</HashCode>
+      <FileName>FlutterCConsole\Computer\Memory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARAACAAAACAAAAAAAAEIAAAAgAFAAAACAAAAAAAgAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableDeclaration">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAIAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\VariableDeclaration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCException">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Exceptions\FlutterCException.cs</FileName>
+      <NewMemberFileName>Nodes\While.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Preprocessor" Collapsed="true">
+    <Position X="54" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAEAAggEAAAAAAIAAAAEAAAUAIFAAQAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Preprocessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Program" Collapsed="true">
+    <Position X="52.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Utils">
+    <Position X="52.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAYACAAAAgAABAgAAAABICBAAAAARAgkAwABAgAA=</HashCode>
+      <FileName>FlutterCConsole\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Computer">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FlutterCConsole\Computer\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Condition">
+    <Position X="6.75" Y="24.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAACAAkAAAEAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.SyntaxParser">
+    <Position X="2.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\SyntaxParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.TypeParser">
+    <Position X="1.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\TypeParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.OperatorsParser">
+    <Position X="0.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAEAAAAAgAAAAAAIAAGAAAAAAEAIAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\OperatorsParser.cs</FileName>
+      <NewMemberFileName>SyntaxParsing\StructureParser.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionBody">
+    <Position X="11" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAEAAAEAAAAAgAAIAIAAAABIAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\FunctionBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Push">
+    <Position X="19.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Push.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.Pop">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Pop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Call">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Call.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Peek">
+    <Position X="12.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Peek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Structure">
+    <Position X="4" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAAAgCBAAAAAAAAAAEAAAQAAAAAAQA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\StructureParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.StructureParser">
+    <Position X="6" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAQAAAgAAEBABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\StructureParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CommandParser">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\CommandParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.NameInventor">
+    <Position X="3.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAABAAAEAgAAAAAAAACAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>FlutterCConsole\NameInventor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Command">
+    <Position X="14.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Assignment">
+    <Position X="13.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ComprasionCommand">
+    <Position X="20.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\ComprasionCommands.cs</FileName>
+      <NewMemberFileName>Nodes\ArithmeticsComman.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Mult">
+    <Position X="15.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Mult.cs</FileName>
+      <NewMemberFileName>Nodes\Plus.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CommandPreparator">
+    <Position X="8" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAgABAAAEAgQAAAAEBAAQAEAQACAAAAAABA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\CommandPreparator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ExpressionParser">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgEAAAAAgCAAAAAAAAAAAAAAAAACAAAAAABAI=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\ExpressionParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Plus">
+    <Position X="17.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Plus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BitwiseNot">
+    <Position X="21.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BitwiseNot.cs</FileName>
+      <NewMemberFileName>Nodes\Minus.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Divide">
+    <Position X="13.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Divide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ConstantParser">
+    <Position X="6" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAACAAACAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\SyntaxParsing\ConstantParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ArithmeticsCommand" Collapsed="true">
+    <Position X="15.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\ArithmeticsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.Less" Collapsed="true">
+    <Position X="29" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Less.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.LessEqual" Collapsed="true">
+    <Position X="26.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\LessEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.Equal" Collapsed="true">
+    <Position X="25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Equal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.More" Collapsed="true">
+    <Position X="27" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\More.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.MoreEqual">
+    <Position X="28.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\MoreEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.NonEqual" Collapsed="true">
+    <Position X="23" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\NonEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PrimitiveValueCommand">
+    <Position X="18.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABAAAAAAAAAAIEAAAARAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PrimitiveValueCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CellMemory">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAgAApAACACAAAAYAAAAAAAgAAAkAAAQAQAQAAAA=</HashCode>
+      <FileName>FlutterCConsole\Computer\CellMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PointerCommand">
+    <Position X="17.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PointerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Asterix">
+    <Position X="20" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Asterix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Ampersand">
+    <Position X="11.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Ampersand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CastInfo">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\DataTypes\CastInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CastCommand">
+    <Position X="11" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\CastCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PushVariable">
+    <Position X="17.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PushVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Nodes.InversedAssignment" Collapsed="true">
+    <Position X="13.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\InversedAssignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.CallMarker">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\DataTypes\CallMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Return">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Return.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ReturnOff">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\ReturnOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="While">
+    <Position X="9" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAAAkAAAEAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\While.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BreakOff">
+    <Position X="18" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BreakOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.ContinueOff">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\ContinueOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Break">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Break.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Continue">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Continue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Off">
+    <Position X="16.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Off.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PerfomanceReport">
+    <Position X="2.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAIAABAECBAAAAAAgEAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>FlutterCConsole\PerfomanceReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BitwiseOr">
+    <Position X="17.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BitwiseOr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BitwiseAnd">
+    <Position X="17.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BitwiseAnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BitwiseXor">
+    <Position X="15.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BitwiseXor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.LeftShift">
+    <Position X="13.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\LeftShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.RightShift">
+    <Position X="15.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\RightShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.BitwiseCommand">
+    <Position X="19.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\BitwiseCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.Mod">
+    <Position X="12" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\Mod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.LogicalOr">
+    <Position X="29.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\LogicalOr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.LogicalAnd">
+    <Position X="26.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\LogicalAnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PreIncrement">
+    <Position X="21.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PreIncrement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PostIncrement">
+    <Position X="23" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PostIncrement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PreDecrement">
+    <Position X="25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PreDecrement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.PostDecrement">
+    <Position X="23.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\Nodes\PostDecrement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.LogicalNot">
+    <Position X="28.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\LogicalNot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlutterCConsole.UnaryMinus">
+    <Position X="13" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlutterCConsole\UnaryMinus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

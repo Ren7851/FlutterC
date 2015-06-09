@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{847CD5B2-CE94-4C67-AD19-86103FADA711}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlutterCLib</RootNamespace>
+    <AssemblyName>FlutterCLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API.cs" />
+    <Compile Include="Dump.cs" />
+    <Compile Include="FieldName.cs" />
+    <Compile Include="FlutterCConsole\AlgoAnalysisReport.cs" />
+    <Compile Include="FlutterCConsole\Computer\CellMemory.cs" />
+    <Compile Include="FlutterCConsole\Computer\Computer.cs" />
+    <Compile Include="FlutterCConsole\Computer\Memory.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\CallMarker.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\CastInfo.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Char.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\ComplexValue.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Double.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Enum.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Float.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\InsignedInt.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Int.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Long.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\LongDouble.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Pointer.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\PrimitiveValue.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Value.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Variable.cs" />
+    <Compile Include="FlutterCConsole\DataTypes\Void.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\AccessViolationException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\BlockException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\BracketBalanceException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\EndlessLoopException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\FlutterCException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\ForParseException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\FunctionCallException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\FunctionRecognisionException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\InputHasGone.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\NameConflictException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\NullPointerAccess.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\OutOfMemoryException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\ParseException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\RuntimeFlutterCException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\SemicolonException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\TypeException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\UnappropriateNameException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\UnexpectedItem.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\UnexpectedTypeException.cs" />
+    <Compile Include="FlutterCConsole\Exceptions\UnsupportedFeatureException.cs" />
+    <Compile Include="FlutterCConsole\LogicalNot.cs" />
+    <Compile Include="FlutterCConsole\NameInventor.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Ampersand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\ArithmeticsCommand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Assignment.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Asterix.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BitwiseAnd.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BitwiseCommand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BitwiseNot.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BitwiseOr.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BitwiseXor.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Break.cs" />
+    <Compile Include="FlutterCConsole\Nodes\BreakOff.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Call.cs" />
+    <Compile Include="FlutterCConsole\Nodes\CAnd.cs" />
+    <Compile Include="FlutterCConsole\Nodes\CastCommand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\ClearStack.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Command.cs" />
+    <Compile Include="FlutterCConsole\Nodes\ComprasionCommands.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Condition.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Continue.cs" />
+    <Compile Include="FlutterCConsole\Nodes\ContinueOff.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Cor.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Divide.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Equal.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Function.cs" />
+    <Compile Include="FlutterCConsole\Nodes\FunctionBody.cs" />
+    <Compile Include="FlutterCConsole\Nodes\InversedAssignment.cs" />
+    <Compile Include="FlutterCConsole\Nodes\LeftShift.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Less.cs" />
+    <Compile Include="FlutterCConsole\Nodes\LessEqual.cs" />
+    <Compile Include="FlutterCConsole\Nodes\LinearNode.cs" />
+    <Compile Include="FlutterCConsole\Nodes\LogicalAnd.cs" />
+    <Compile Include="FlutterCConsole\Nodes\LogicalOr.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Malloc.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Minus.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Mod.cs" />
+    <Compile Include="FlutterCConsole\Nodes\More.cs" />
+    <Compile Include="FlutterCConsole\Nodes\MoreEqual.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Mult.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Node.cs" />
+    <Compile Include="FlutterCConsole\Nodes\NonEqual.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Off.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Operator.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Peek.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Plus.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PointerCommand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Pop.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PrimitiveValueCommand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Printf.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Push.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PushVariable.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Return.cs" />
+    <Compile Include="FlutterCConsole\Nodes\ReturnOff.cs" />
+    <Compile Include="FlutterCConsole\Nodes\RightShift.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Scanf.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Sizeof.cs" />
+    <Compile Include="FlutterCConsole\Nodes\Srand.cs" />
+    <Compile Include="FlutterCConsole\Nodes\VariableDeclaration.cs" />
+    <Compile Include="FlutterCConsole\Nodes\While.cs" />
+    <Compile Include="FlutterCConsole\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="FlutterCConsole\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="FlutterCConsole\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="FlutterCConsole\PerfomanceReport.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PostDecrement.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PostIncrement.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PreDecrement.cs" />
+    <Compile Include="FlutterCConsole\Nodes\PreIncrement.cs" />
+    <Compile Include="FlutterCConsole\Preprocessor.cs" />
+    <Compile Include="FlutterCConsole\Program.cs" />
+    <Compile Include="FlutterCConsole\Properties\AssemblyInfo.cs" />
+    <Compile Include="FlutterCConsole\Settings.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\CommandParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\CommandPreparator.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\ConstantParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\ExpressionParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\OperatorsParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\StructureParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\SyntaxParser.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\TokensCollector.cs" />
+    <Compile Include="FlutterCConsole\SyntaxParsing\TypeParser.cs" />
+    <Compile Include="FlutterCConsole\UnaryMinus.cs" />
+    <Compile Include="FlutterCConsole\Utils.cs" />
+    <Compile Include="Free.cs" />
+    <Compile Include="NativeFunctionBody.cs" />
+    <Compile Include="OperatorPoint.cs" />
+    <Compile Include="Rand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FlutterCConsole\App.config" />
+    <None Include="FlutterCConsole\bin\Debug\FlutterCConsole.exe.config" />
+    <None Include="FlutterCConsole\bin\Debug\FlutterCConsole.vshost.exe.config" />
+    <None Include="FlutterCConsole\diagram.cd" />
+    <None Include="FlutterCConsole\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="FlutterCConsole\obj\Debug\FlutterCConsole.csprojResolveAssemblyReference.cache" />
+    <None Include="FlutterCConsole\obj\Debug\FlutterCConsole.exe.orig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlutterCConsole\bin\Debug\FlutterCConsole.exe" />
+    <Content Include="FlutterCConsole\bin\Debug\FlutterCConsole.instr.pdb" />
+    <Content Include="FlutterCConsole\bin\Debug\FlutterCConsole.pdb" />
+    <Content Include="FlutterCConsole\bin\Debug\FlutterCConsole.vshost.exe" />
+    <Content Include="FlutterCConsole\bin\Debug\testcode.txt" />
+    <Content Include="FlutterCConsole\FlutterCConsole.csproj" />
+    <Content Include="FlutterCConsole\obj\Debug\FlutterCConsole.csproj.FileListAbsolute.txt" />
+    <Content Include="FlutterCConsole\obj\Debug\FlutterCConsole.exe" />
+    <Content Include="FlutterCConsole\obj\Debug\FlutterCConsole.instr.pdb" />
+    <Content Include="FlutterCConsole\obj\Debug\FlutterCConsole.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlutterCConsole\bin\Release\" />
+    <Folder Include="FlutterCConsole\obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

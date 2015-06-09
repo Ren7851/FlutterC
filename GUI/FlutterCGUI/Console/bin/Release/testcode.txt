@@ -1,0 +1,1204 @@
+
+
+struct point{
+	double x;
+	double y;
+}
+
+
+struct circle{
+	struct point center;
+	double rad;
+}
+
+
+int main(){
+	/*
+	for(int i = 0; i<500000; i++){
+	}
+	*/
+	
+	/*
+	double a;
+	double b;
+	scanf("%f %f", &a, &b);
+	double res = pow(a, b);
+	printf("%f", res);
+	*/
+
+
+
+	/*
+	double a;
+	for(int i = 0; i<10000; i++){
+		a = binpow(1.001, 1000);
+	}
+	printf("%f", a);
+	*/
+	
+
+	/*
+	int len = 10;
+	int* array = makeArray(len);
+	printArray(array, len);
+	bubbleSort(array, len);
+	printArray(array, len);
+	*/
+	
+	
+	/*
+	printf("%f %f\n", fabs(-0.5), 0.5);
+	printf("%f %f\n", sin(0.4), 0.389418);
+	printf("%f %f\n", cos(0.4), 0.921061);
+	printf("%f %f\n", tan(0.4), 0.422793);
+	printf("%f %f\n", asin(0.4), 0.411517);
+	printf("%f %f\n", acos(0.4), 1.159279);
+	printf("%f %f\n", atan(0.4), 0.380506);
+	printf("%f %f\n", pow(2.3, 4.7), 50.132669);
+	printf("%f %f\n", ldexp(2.3, 5), 73.6);
+	printf("%f %f\n", fmod(2.3, 0.4), 0.3);
+ 
+	int res1 = 0;
+	double res2 = 0;
+	printf("%f %d %f %d\n", frexp(152.85, &res1), res1, 0.59707, 8);
+	printf("%f %f %f %f\n", modf(152.85, &res2), res2, 152, 0.85);
+
+
+	printf("%f %f\n", floor(1.45), 1);
+	printf("%f %f\n", floor(-1.45), -2);
+	printf("%f %f\n", ceil(1.45), 2);
+	printf("%f %f\n", ceil(-1.45), -1);
+	
+
+
+
+	char* a1 = (char*)malloc(5*sizeof(char));
+	char* b1 = "abc";
+	printf("%s %s\n", a1, strcpy(a1, b1), "abc");
+	char* a2 = (char*)malloc(5*sizeof(char));
+	char* b2 = "abc";
+	printf("%s %s\n", strncpy(a2, b2, 2), "ab");
+	char* a3 = (char*)malloc(10*sizeof(char));
+	a3[0] = 'a';
+	a3[1] = 'b';
+	char* b3 = "abc";
+	printf("%s %s\n", strcat(a3, b3), "ababc");
+	char* a4 = "abc";
+	char* b4 = "aba";
+	printf("%d %d\n", strcmp(a4, b4), 1);
+	char* a5 = "abc";
+	char* b5 = "abcd";
+	printf("%d %d\n", strcmp(a5, b5), -1);
+	char* a6 = "abc";
+	char* b6 = "aba";
+	printf("%d %d\n", strncmp(a6, b6, 3), 1);
+	char* a7 = "abc";
+	char* b7 = "abcd";
+	printf("%d %d\n", strncmp(a7, b7, 3), 0);
+	char* a8 = "abc";
+	char* b8 = "abcd";
+	printf("%d %d\n", strncmp(a8, b8, 3), 0);
+	char* a9 = "abcabc";
+	printf("%s %s\n", strchr(a9, 'b'), "bcabc");
+	char* a10 = "abcabc";
+	printf("%s %s\n", strrchr(a10, 'b'), "bc");
+	char* a11 = "cdbc";
+	char* b11 = "cd";
+	printf("%d %d\n", strspn(a11, b11), 2);
+	char* a12 = "trcdbc";
+	char* b12 = "tc";
+	printf("%d %d\n", strcspn(a12, b12), 1);
+	char* a13 = "trcdbc";
+	char* b13 = "tc";
+	printf("%d %d\n", strcspn(a13, b13), 1);
+	char* a14 = "trcdbc";
+	char* b14 = "tc";
+	printf("%d %d\n", strcspn(a14, b14), 1);
+	char* a15 = "trcdbc";
+	char* b15 = "ce";
+	printf("%s %s\n", strrbrk(a15, b15), "cdbc");
+
+	
+	char* a16 = "trcdbc";
+	char* b16 = "cdb";
+	printf("%s %s\n", strstr(a16, b16), "cdbc");
+	
+
+
+
+	
+	char* src="123456";
+    char* dst=(char*)malloc(10*sizeof(char));
+    memcpy(dst, src, 6);
+    printf("%s\n", dst);
+
+
+	
+	char* src2="123456";
+    char* dst2=(char*)malloc(10*sizeof(char));
+    memmove(dst2, src2, 4);
+    printf("%s q\n", dst2);
+
+	char* src3="123456";
+    memset(src3, 'u', 4);
+    printf("%s q\n", src3);
+	*/
+
+
+	/*
+	int i;
+	int j;
+	int n = 5;
+    int** a = (int**)malloc(n*sizeof(int*));
+	
+	
+	for(i = 0; i<n; i++){
+		int* array = (int*)malloc(n*sizeof(int));
+		a[i] = array;
+	}
+	
+	for(i = 0; i<n; i++){
+		for(int j = 0; j<n; j++){
+			a[i][j] = rand()%10;
+		}
+	}
+
+	
+	for(i = 0; i<n; i++){
+		for(int j = 0; j<n; j++)
+			printf("%d ", a[i][j]);
+		printf("\n");
+	}
+	*/
+	
+	
+	
+	/*
+	struct point* spa = makePointsArray(5);
+	dump();
+	largestTriangle(spa, 5);
+	*/
+	
+	/*
+	int lens = 10;
+	char** s = (char**)malloc(lens*sizeof(char*));
+
+	for(int i = 0; i<lens; i++){
+		s[i] = "aaa";
+	}
+
+	s[4] = "foo";
+	s[5] = "bar";
+
+	dump();
+	*/
+
+	
+	/*
+	char* end = "345.34 abc 23.45 hij";
+	char* start = "345.34 abc 23.45 hij";
+	end = start;
+	while(*start) {
+		printf("%f, ", strtod(start, &end));
+		printf("Remaining: %s\n" ,end);
+		start = end;
+		while(!isdigit(*start) && *start) start++;
+	}
+	*/
+
+	/*
+	printf("%d\n", isdigit('5'));
+	printf("%d\n", isdigit('a'));
+	printf("%d\n", isalpha('A'));
+	printf("%d\n", isalpha('b'));
+	printf("%d\n", isalpha('$'));
+	printf("%d\n", isalpha('4'));
+	printf("%d\n", isxdigit('A'));
+	printf("%d\n", isxdigit('X'));
+	printf("%d\n", isxdigit('1'));
+	printf("%c\n", tolower('X'));
+	printf("%c\n", toupper('t'));
+	*/
+
+
+
+	/*
+	long a = atol("23434312323443");
+	printf("%ld\n", a);
+
+	long b = atoi("4578");
+	printf("%d\n", b);
+
+	double c = atof("36.9");
+	printf("%f\n", c);
+	*/
+	
+	/*
+	int* p;
+	int a = 4;
+	p = &a;
+	printf("%d", (int)*p);
+	*/
+
+
+	int len = 10;
+	int* array = makeArray(len);
+	printArray(array, len);
+	bubbleSort(array, len);
+	printArray(array, len);
+	dump();
+}
+
+
+
+
+
+/*
+struct point* makePointsArray(int len){
+	struct point* res = (struct point*)malloc(len*sizeof(struct point));
+	for(int i = 0; i<len; i++){
+		res[i].x = rand()%10;
+		res[i].y = rand()%10;
+	}
+	return res;
+}
+
+
+
+void largestTriangle(struct point* array, int len){
+	double maxArea = 0;
+	int maxI = 0;
+	int maxJ = 0;
+	int maxK = 0;
+	for(int i = 0; i<len; i++)
+		for(int j = 0; j<len; j++){
+			for(int k = 0; k<len; k++){
+				double carea = area(array[i], array[j], array[k]);
+				if(carea > maxArea){
+					maxArea = carea;
+					maxI = i;
+					maxJ = j;
+					maxK = k;
+				}
+			}
+		}
+	printf("%d %d %d\n", maxI, maxJ, maxK);	
+}
+
+double area(struct point a, struct point b, struct point c){
+	return 1.0/2.0*((a.x - c.x)*(b.y - c.y)-(b.x - c.x)*(a.y - c.y));
+}
+*/
+
+
+
+int* makeArray(int len){
+	int* res = (int*)malloc(sizeof(int)*len);
+	for(int i = 0; i<len; i++){
+		res[i] = rand() % 10;
+	}
+	return res;
+}
+
+void bubbleSort(int* a, int len){
+	for (int i = 0; i<len; i++){
+		for (int j = 0; j<len - 1; j++){
+			if (a[j] > a[j + 1]){
+				int temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
+	dump();
+}
+
+void printArray(int* a, int len){
+	for(int i = 0; i<len; i++){
+		printf("%d ", a[i]);
+	}
+	printf("\n");
+}
+
+
+
+
+
+
+int EDOM = 1;
+int errno = 0;
+double PI = 3.14159265358;
+double EPS = 0.000000001;
+
+
+/*
+double fabs(double x){
+	dump();
+	if (x >= 0){
+		return x;
+	}
+	else{
+		return -x;
+	}
+}
+
+
+
+
+
+
+
+double binpow(double a, int b){
+	if (b == 0){
+		return 1.0;
+	}
+	else{
+		if (b % 2 == 0){
+			double part = binpow(a, b / 2);
+			return part*part;
+		}
+		else{
+			return a*binpow(a, b - 1);
+		}
+	}
+}
+
+double sin(double x){
+	double res = 0;
+	int n;
+	double member = 0;
+	for (n = 0;; n++){
+		if (n == 0 || n == 1){
+			if (n == 0){
+				member = x;
+			}
+			else{
+				member = -x*x*x / 6.0;
+			}
+		}
+		else{
+			double i = (double)(n - 1);
+			member = -member * x*x * (1.0) / ((2.0*i + 2.0)*(2.0*i + 3.0));
+		}
+		res += member;
+		if (fabs(member) < EPS){
+			break;
+		}
+	}
+	return res;
+}
+
+
+double cos(double x){
+	double res = 0;
+	int n;
+	double member = 0;
+	for (n = 0;; n++){
+		if (n == 0 || n == 1){
+			if (n == 0){
+				member = 1;
+			}
+			else{
+				member = -x*x / 2.0;
+			}
+		}
+		else{
+			double i = (double)(n - 1);
+			member = -member * x*x * (1.0) / ((2.0*i + 1.0)*(2.0*i + 2.0));
+		}
+		res += member;
+		if (fabs(member) < EPS){
+			break;
+		}
+	}
+	return res;
+}
+
+
+double tan(double x){
+	return sin(x) / cos(x);
+}
+
+double msqrt(double n){
+	double x = 1;
+	for (;;) {
+		double nx = (x + n / x) / 2.0;
+		if (fabs(x - nx) < EPS)  break;
+		x = nx;
+	}
+	return x;
+}
+
+
+double asin(double x){
+	double res = 0;
+	int n = 0;
+	double member = 0;
+	double k = 1;
+	for (n = 0;; n++){
+		if (n == 0){
+			member = x;
+		}
+		else{
+			if (n == 1){
+				member = x*x*x / 6.0;
+			}
+			else{
+				double e = (double)(n - 1);
+				k = (2.0*e + 1.0)*(2.0*e + 1.0)*(2.0*e + 2.0) / (4.0*(e + 1.0)*(e + 1.0)*(2.0*e + 3.0));
+				member = member * k*x*x;
+			}
+		}
+		res += member;
+		if (fabs(member) < EPS || n>100){
+			break;
+		}
+	}
+	return res;
+}
+
+
+double acos(double x){
+	return PI / 2.0 - asin(x);
+}
+
+
+double atan(double y){
+	double l = -PI / 2.0;
+	double r = PI / 2.0;
+	double m = (l + r) / 2.0;
+	while (fabs(r - l) > EPS){
+		m = (l + r) / 2.0;
+		double f = tan(m);
+		if (f >= y){
+			r = m;
+		}
+		else{
+			l = m;
+		}
+	}
+	return m;
+}
+
+
+double exp(double x){
+	double res = 0;
+	int n = 0;
+	double member = 1;
+	while (1){
+		if (n != 0){
+			member = member * x / (double)n;
+		}
+		res += member;
+
+		if (fabs(member) < EPS){
+			return res;
+		}
+
+		n++;
+	}
+	return res;
+}
+
+
+double sinh(double x){
+	return (exp(x) - exp(-x)) / 2.0;
+}
+
+double cosh(double x){
+	return (exp(x) + exp(-x)) / 2.0;
+}
+
+double tanh(double x){
+	return sinh(x) / cosh(x);
+}
+
+double log(double y){
+	if (y <= 0){
+		errno = EDOM;
+		return -100;
+	}
+
+	double l = -100.0;
+	double r = 100.0;
+	double m = (l + r) / 2.0;
+	while (fabs(r - l) > EPS){
+		m = (l + r) / 2.0;
+		double f = exp(m);
+		if (f >= y){
+			r = m;
+		}
+		else{
+			l = m;
+		}
+	}
+	return m;
+}
+
+
+double log10(double x){
+	return log(x) / log(10.0);
+}
+
+double pow(double a, double x){
+	if (a == 0.0 && x<0){
+		errno = EDOM;
+		return -100;
+	}
+
+	if (a < 0){
+		errno = EDOM;
+		return -100;
+	}
+
+	return exp(x*log(a));
+}
+
+double ldexp(double x, int n){
+	return x*binpow(2.0, n);
+}
+
+double frexp(double x, int* exponent){
+	if (x == 0){
+		*exponent = 0;
+		return 0;
+	}
+
+	double sign = 1.0;
+	if (x < 0){
+		sign = -sign;
+		x *= -1.0;
+	}
+
+	int ex = 0;
+
+	while (!(x >= 0.5 && x<1.0)){
+		if (x>1.0){
+			ex++;
+			x /= 2.0;
+		}
+		else{
+			ex--;
+			x *= 2.0;
+		}
+	}
+
+	*exponent = ex;
+	return x*sign;
+}
+
+
+
+double ceil(double x){
+	if (x >= 0){
+		if ((double)((int)x) == x){
+			return (double)((int)x);
+		}
+		else{
+			return (double)((int)x) + 1.0;
+		}
+	}
+	else{
+		if ((double)((int)x) == x){
+			return (double)((int)x);
+		}
+		else{
+			return (double)((int)x);
+		}
+	}
+}
+
+double floor(double x){
+	if (x >= 0){
+		if ((double)((int)x) == x){
+			return (double)((int)x);
+		}
+		else{
+			return (double)((int)x);
+		}
+	}
+	else{
+		if ((double)((int)x) == x){
+			return (double)((int)x);
+		}
+		else{
+			return (double)((int)x) - 1.0;
+		}
+	}
+}
+
+
+double modf(double x, double* ip){
+	if (x >= 0){
+		*ip = x - floor(x);
+		return floor(x);
+	}
+	else{
+		*ip = x - ceil(x);
+		return ceil(x);
+	}
+}
+
+double fmod(double x, double y){
+	if (y == 0){
+		errno = EDOM;
+		return -100;
+	}
+
+	double div = x / y;
+	double res = 0;
+	modf(div, &res);
+	return res*y;
+}
+
+
+
+
+char* strcpy(char* strDest, char* strSrc){
+	char* temp = strDest;
+    while(*strDest++ = *strSrc++);
+    return temp;
+}
+
+
+char* strncpy(char* s1, char* s2, int n){
+	char *s = s1;
+    while (n > 0 && *s2 != '\0') {
+		*s++ = *s2++;
+		--n;
+    }
+    while (n > 0) {
+		*s++ = '\0';
+		--n;
+    }
+    return s1;
+}
+
+
+char* strcat(char *dest, char *src)
+{
+    int i = 0;
+	int j = 0;
+    for (i = 0; dest[i] != '\0'; i++);
+    for (j = 0; src[j] != '\0'; j++)
+        dest[i+j] = src[j];
+    dest[i+j] = '\0';
+    return dest;
+}
+
+
+int strcmp(char* s1, char* s2){
+	while(*s1 && (*s1==*s2)){
+        s1++;
+		s2++;
+	}
+	if(*s1 < *s2){
+		return -1;
+	}
+	else{
+		return *s1 > *s2;
+	}
+}
+
+
+int strncmp(char* s1, char* s2, int n){
+	int c = 1;
+	while(*s1 && (*s1==*s2)){
+		if(c >= n){
+			break;
+		}
+		
+        s1++;
+		s2++;
+		c++;
+	}
+	if(*s1 < *s2){
+		return -1;
+	}
+	else{
+		return *s1 > *s2;
+	}
+}
+
+
+char* strchr(char* s, int c){
+	while(1){
+		if(*s == c){
+			return s;
+		}
+		if(*s == '\0'){
+			return 0;
+		}
+		s++;
+	}
+}
+
+char* strrchr(char* s, int c){
+	char* newpointer = s+strlen(s);
+	while(1){
+		if(*newpointer == c){
+			return newpointer;
+		}
+		if(newpointer == s){
+			return 0;
+		}
+		newpointer--;
+	}
+}
+
+
+
+int strlen(char* cs){
+	int res = 0;
+	while(*cs!='\0'){
+		cs++;
+		res++;
+	}
+	return res;
+}
+
+
+
+int strspn(char* str1, char* str2){
+	int i = 0;
+	int k = 0;
+	int counter = 0;
+	for(i=0; str1[i]!='\0'; i++){
+		if(counter != i) 
+		{
+			break;
+		}
+
+		for(k=0;str2[k]!='\0';k++){
+			if(str1[i]==str2[k]){
+				counter++;
+			}
+		}
+	}
+	return counter;
+}
+
+int strcspn(char* str1, char* str2){
+	int i = 0;
+	int k = 0;
+	int pointer = 0;
+	int counter = 0;
+	for(i=0; str1[i]!='\0'; i++){
+		if(counter != i) break;
+		int inc = 1;
+		for(k=0;str2[k]!='\0';k++){
+			if(str1[i]==str2[k]){
+				inc = 0;
+			}
+		}
+		if(!inc){
+			counter++;
+		}
+	}
+	return counter;
+}
+
+char* strrbrk(char* s1, char* s2){
+	char *c = s2;
+	if (!*s1) {
+		return 0;
+	}
+	while (*s1) {
+		for (c = s2; *c; c++) {
+			if (*s1 == *c)
+				break;
+		}
+		if (*c)
+			break;
+		s1++;
+	}
+	if (*c == '\0')
+		s1 = 0;
+	return s1;
+}
+
+char* strstr(char* str, char* target){
+	if (!*target) return str;
+	char *p1 = (char*)str;
+	while (*p1) {
+		char* p1Begin = p1;
+		char* p2 = (char*)target;
+		while (*p1 == *p2) {
+			p1++;
+			p2++;
+			if(*p1 == '\0' || *p2 == '\0'){
+				break;
+			}
+		}
+		if (!*p2)
+			return p1Begin;
+		p1 = p1Begin + 1;
+	}
+	return 0;
+}
+
+
+
+void* memmove(void* dest, void* src, int n){
+	char *d = (char *)dest;
+	char *s = (char *)src;
+
+	if (s == d)
+		return dest;
+
+	if (s < d) {
+		s = s + n - 1;
+		d = d + n - 1;
+		while (n--)
+		{
+			*d-- = *s--;
+		}
+	}
+	else {
+		while (n--)
+			*d++ = *s++;
+	}
+	return dest;
+}
+
+int memcmp(void* s1, void* s2, int n){
+	return strncmp(s1, s1, n);
+}
+
+
+void* memset(void* b, char c, int len){
+	int i;
+    char* p = b;
+    i = 0;
+    while(len > 0)
+    {
+		*p = c;
+		p++;
+		len--;
+    }
+    return b;
+}
+
+
+void* memcpy(void* dest, void* src, int count){
+	char* dst8 = (char*)dest;
+	char* src8 = (char*)src;
+	while (count--) {
+		*dst8 = *src8;
+		dst8++;
+		src8++;
+	}
+	return dest;
+}
+
+
+int abs(int x){
+	if(x>0){
+		return x;
+	}
+	else{
+		return -x;
+	}
+}
+
+long labs(long x){
+	if(x>0){
+		return x;
+	}
+	else{
+		return -x;
+	}
+}
+
+
+
+
+double strtod(char* str, char** endptr){
+	double result = 0.0;
+    char signedResult = '\0';
+    char signedExponent = '\0';
+    int decimals = 0;
+    int isExponent = 0;
+    int hasExponent = 0;
+    int hasResult = 0;
+	
+    double exponent = 0;
+    char c;
+    for (; '\0' != (c = *str); ++str)
+    {
+        if ((c >= '0') && (c <= '9'))
+        {
+            int digit = c - '0';
+            if (isExponent)
+            {
+                exponent = (10 * exponent) + digit;
+                hasExponent = 1;
+            }
+            else 
+				if (decimals == 0)
+				{
+					result = (10 * result) + digit;
+					hasResult = 1;
+				}
+				else
+				{
+					result += (double)digit / decimals;
+					decimals *= 10;
+				}
+            continue;
+        }
+        if (c == '.')
+        {
+            if (!hasResult)
+            {
+                break;
+            }
+            if (isExponent)
+            {
+                break;
+            }
+            if (decimals != 0)
+            {
+                break;
+            }
+            decimals = 10;
+            continue;
+        }
+        if ((c == '-') || (c == '+'))
+        {
+            if (isExponent)
+            {
+                if (signedExponent || (exponent != 0))
+                    break;
+                else
+                    signedExponent = c;
+				
+            }
+            else
+            {
+                if (signedResult || (result != 0))
+                    break;
+                else
+                    signedResult = c;
+            }
+            continue;
+        }
+        if (c == 'E')
+        {
+            if (!hasResult)
+            {
+                break;
+            }
+            if (isExponent)
+                break;
+            else
+                isExponent = 1;
+            continue;
+        }
+        break;
+    }
+    if (isExponent && !hasExponent)
+    {
+        while (*str != 'E')
+            --str;
+    }
+    if (!hasResult && signedResult)
+        --str;
+
+    if (endptr)
+        *endptr = (char*)(str);
+		
+    for (; exponent != 0; --exponent)
+    {
+        if (signedExponent == '-')
+            result /= 10;
+        else
+            result *= 10;
+    }
+    if (signedResult == '-')
+    {
+        if (result != 0)
+            result = -result;
+    }
+    return result;
+}
+
+
+
+
+
+int isdigit(char x){
+	if(x>='0' && x<='9'){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+
+int islower(char x){
+	if(x>='a' && x<='z'){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+int isupper(char x){
+	if(x>='A' && x<='Z'){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+
+int isspace(char x){
+	if(x==' '){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+
+int isxdigit(char x){
+	if((x>='A' && x<='F') || isdigit(x)){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+
+int isalpha(char x){
+	if(islower(x) || isupper(x)){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
+int tolower(char x){
+	return 'a'+(x - 'A');
+}
+
+int toupper(char x){
+	return 'A' + (x - 'a');
+}
+
+long strtol(char* nPtr, char **endPtr, int base)
+{
+	char* start;
+	int number;
+	long int sum = 0;
+	int sign = 1;
+	char* pos = nPtr;
+
+	if (*pos == '\0'){
+		return 0;
+	}
+
+	start = pos;
+	while (isspace(*pos))
+	{
+		++pos;
+	}
+
+	if (*pos == '-')
+	{
+		sign = -1;
+		++pos;
+	}
+
+	if (*pos == '+')
+		++pos;
+
+	if (base == 16 || base == 8)
+	{
+		if (base == 16 && *pos == '0')
+			++pos;
+		if (base == 16 && (*pos == 'x' || *pos == 'X'))
+			++pos;
+		if (base == 8 && *pos == '0')
+			++pos;
+	}
+
+	if (base == 0)
+	{
+		base = 10;
+		if (*pos == '0')
+		{
+			base = 8;
+			++pos;
+			if (*pos == 'x' || *pos == 'X')
+			{
+				base = 16;
+				++pos;
+			}
+		}
+	}
+
+	while (*pos != '\0')
+	{
+		number = -1;
+		if ((int)(*pos) >= 48 && (int)(*pos) <= 57)
+		{
+			number = (int)(*pos) - 48;
+		}
+		if (isalpha(*pos))
+		{
+			number = (int)(toupper(*pos)) - 55;
+		}
+
+		if (number < base && number != -1)
+		{
+			if (sign == -1)
+			{
+				sum = sum * base - number;
+			}
+			else
+			{
+				sum = sum * base + number;
+			}
+		}
+		else if (base == 16 && number > base
+			&& (*(pos - 1) == 'x' || *(pos - 1) == 'X'))
+		{
+			--pos;
+			break;
+		}
+		else
+			break;
+		++pos;
+	}
+
+	if (!isdigit(*(pos - 1)) && !isalpha(*(pos - 1)))
+		pos = start;
+
+	if (endPtr)
+		*endPtr = (char*)pos;
+
+	return sum;
+}
+
+
+
+double atof(char* s){
+	return strtod(s, (char**)0);
+}
+
+int atoi(char* s){
+	return (int)strtol(s, (char**)0, 10);
+}
+
+long atol(char* s){
+	return strtol(s, (char**)0, 10);
+}
+*/

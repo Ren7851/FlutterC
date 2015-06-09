@@ -1,0 +1,12 @@
+int main(){
+	for(int i = 0; i<10000; i++){
+		double res = binpow(1.0001, (int)i);
+	}
+}
+
+double binpow(double a, int b){
+	if (b == 0) return 1;
+	if (b % 2 == 1) return a * binpow(a, b - 1);
+	double root = binpow(a, b / 2);
+	return root*root;
+}
